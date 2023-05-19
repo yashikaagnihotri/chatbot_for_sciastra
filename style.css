@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Wix Madefor Display', sans-serif;
+}
+.unread {
+	cursor: pointer;
+	background-color: #f4f4f4;
+}
+
+.row{
+	justify-content: end;
+}
+
+.messages-box {
+	max-height: 28rem;
+	overflow: auto;
+
+}
+.online-circle {
+	border-radius: 5rem;
+	width: 5rem;
+	height: 5rem;
+}
+.messages-title {
+	float: right;
+	margin: 0px 5px;
+}
+.message-img {
+	float: right;
+	margin: 0px 5px;
+}
+.message-header {
+	text-align: right;
+	width: 100%;
+	margin-bottom: 0.5rem;
+	color: linear-gradient(70deg, #db3edb, #5c5ced);
+}
+.text-editor {
+	min-height: 18rem;
+}
+.messages-list li.messages-you .messages-title {
+	float: left;
+}
+.messages-list li.messages-you .message-img {
+	float: left;
+}
+.messages-list li.messages-you p {
+	float: left;
+	text-align: left;
+}
+.messages-list li.messages-you .message-header {
+	text-align: left;
+}
+.messages-list li p {
+	max-width: 60%;
+	padding: 5px;
+	border: purple 1px solid;
+	border-radius: 3px;
+	background: linear-gradient(70deg, #db3edb, #5c5ced);
+	color: white;
+	box-shadow: 3px 3px 7px rgb(138, 138, 138);
+}
+.messages-list li.messages-me p {
+	float: right;
+}
+.ql-editor p {
+	font-size: 1rem;
+}  
+
+.card{
+	width: 100%;
+	padding: 0;
+	border: 1px solid purple;
+}
+.container{
+	width: 70%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.send-btn{
+	background: linear-gradient(70deg, #5c5ced, #db3edb);
+	color: white;
+	font-weight: bold;
+	border: 1px solid rgb(72, 72, 72);
+	border-radius: 4px;
+}
+
+.send-btn:hover{
+	background: linear-gradient(70deg, #4646cc, #c03ec0);
+}
+
+.avatar-sm{
+	height: 50px;
+}
+
+
+.card-header{
+	border-top: 1px solid purple;
+}
+
